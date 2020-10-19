@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+    a {
+        font-size: 14px;
+        color: #585858;
+        padding-top: 5px;
+    }
+}
+
+.wrap {
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    .search {
+        margin-right: 35px;
+        padding-top: 10px;
+    }
+}
+
+.info-table {
+    tr {
+        width: 481px;
+        height: 93px;
+    }
+    td {
+        width: 481px;
+        height: 93px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-top: 5px;
+        padding-right: 5px;
+        border-top: 1px solid #00000029;
+        border-bottom: 1px solid #00000029
+    }
+    .ButtomTable {
+        position: relative;
+        display: flex;
+        font-size: 10px;
+    }
+    .TableTime {
+        border-left: 1px solid #585858;
+        padding-left: 10px;
+        width: 120px;
+        height: 38px;
+    }
+    .TableNumber {
+        font-size: 13px;
+        color: #707070;
+    }
+    .CarNumber {
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
+    }
+    .AdressInfo {
+        width: 250px;
+    }
+    &-btn {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        border: 1px white solid;
+        img {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border: 1px white solid;
+        }
+    }
+}

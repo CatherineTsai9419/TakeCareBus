@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="./CSS/map-1.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="./bootstrap-4.5.2/dist/css/bootstrap.css">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div class="result">
+        <!--left main navbar-->
+        <div class="left-nav-bar">
+            <input type="image" src="./IMG/表格資料icon-灰.png" width="32.5" height="28.5" onclick="location.href='table-1.html'">
+            <input type="image" src="./IMG/純白地圖-灰.png" width="32.5" height="28.5" onclick="location.href='map-1.html'">
+            <input type="image" src="./IMG/視覺化icon-灰.png" width="36.5" height="35.26" onclick="">
+            <input type="image" src="./IMG/使用者icon-灰.png" width="41" height="41" onclick="">
+        </div>
+        <!--map information-->
+        <div id="map"></div>
+
+        <!--iframe-->
+        <div class="info-table">
+            <iframe frameborder="0" noresize="noresize" style=" background: transparent; width: 489px; height:768px;" src="map-1iframe.html" frameborder="0">
+            </iframe>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <script src="JS/map-1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./bootstrap-4.5.2/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

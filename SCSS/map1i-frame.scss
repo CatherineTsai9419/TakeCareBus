@@ -1,0 +1,241 @@
+@import"cssreset";
+@import"i-frame";
+.accordion {
+    width: 489px;
+    .TableNumber {
+        color: #707070;
+        font-size: 13px;
+    }
+    .CarNumber {
+        color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .ButtomTable {
+        display: flex;
+        font-size: 10px;
+    }
+    .TableTime {
+        padding-left: 13px;
+        border-left: 1px solid #000000;
+        margin-right: 80px;
+    }
+    .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 12px;
+        padding: unset;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        p{
+            margin: unset;
+            height: unset;
+        }
+        .CardTitle{
+            font-size: 15px;
+            padding-right: 36px;
+            }
+        .mission{
+            display: flex;
+            flex-direction: column;
+            padding-left: 11px;
+            border-left: 1px solid #B7B7B7BD;
+            height: 70px;
+            img{
+                width: 16px;
+                height: 16px;
+                margin-right: 6px;
+
+            }
+            &-info{
+                display: flex;
+            }
+
+        }
+        .CardButton{
+            background-color: unset;
+            border: 1px solid #ABA8A8;
+            border-radius: 1.5rem;
+            padding: unset;
+            margin-left: 60px;
+            width: 16px;
+            height: 40px;
+            img{
+                transform:rotate(270deg); 
+                width: 12px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+    .modal-content{
+        width: 460px;
+        border-radius: 0.8rem;
+    }
+    .modal-title{
+        font-size: 22px;
+        font-weight: bold;
+        color: #707070;
+        margin-left: 180px;
+    }
+    .modal-body{
+        display: flex;
+        padding: unset;
+        font-size: 12px;
+        color: white;
+        div{
+            height: 110px;
+            width: 114.5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .ModalBody1{
+            background-color:#F09C66 ;
+            img{
+                width: 36px;
+                height: 36px;
+                margin-bottom: 7px;
+            }
+            span{
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+        .ModalBody2{
+            background-color: #F08541;
+            img{
+                width: 33px;
+                height: 38px;
+                margin-bottom: 7px;
+            }
+            span{
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+        .ModalBody3{
+            background-color: #ED6E1D;
+            img{
+                width: 33px;
+                height: 38px;
+                margin-bottom: 7px;
+            }
+            span{
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+        .ModalBody4{
+            background-color: #E95000;
+            img{
+                width: 33px;
+                height: 38px;
+                margin-bottom: 7px;
+            }
+            span{
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+    }
+    .ModalInfo{
+        div{
+            display: flex;
+            width: 365px;
+            margin-top: 12px;
+            margin-left: 40px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #B7B7B7;
+        }
+        img{
+            width: 19px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        p{
+            font-size: 15px;
+        }
+        span{
+            color: #E95000;
+            margin-right: 3px;
+        }
+        .MiddleInfo{
+            display: flex;
+            flex-direction: column;
+            width: 365px;
+            margin-top: 12px;
+            margin-left: 40px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #B7B7B7;
+        }
+        .StarPoint{
+            margin: unset;
+            border: unset;
+            img{
+                width: 16px;
+                height: 23px;
+            }
+        }
+        .Point{
+            margin: unset;
+            border: unset;
+            img{
+                width: unset;
+                height: 15px;
+                margin-left: 39px;
+            }
+       
+        }
+        .EndPoint{
+            margin: unset;
+            border: unset;
+            padding: unset;
+            margin-left: 24px;
+            font-weight: bold;
+        }
+        .BottomInfo{
+            margin: unset;
+            margin-bottom: 26px;
+            border: unset;
+            padding: unset;
+            flex-direction: column;
+            div{
+                border: unset;
+            }
+        .PassengerInfo{
+            margin: unset;
+            border: unset;
+            padding: unset;
+            font-size: 15px;
+            margin-left: 62px;
+            span{
+                font-size: 12px;
+                color: #F96B1C;
+            }
+            img{
+                margin-left: 12px;
+            }
+        }
+        .LittleInfoCard{
+            margin: unset;
+            margin-right: 12px;
+            border: 1px solid #B7B7B7;
+            border-radius: 0.4rem;
+            padding: unset;
+            padding-left: 3.5px;
+            width: 42px;
+            height: 26px;
+        }
+
+        }
+       
+    }
+
+
+}
