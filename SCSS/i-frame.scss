@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     padding-top: 20px;
@@ -25,6 +26,7 @@
 }
 
 .info-table {
+    overflow-x: hidden;
     tr {
         width: 481px;
         height: 93px;
